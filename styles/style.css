@@ -25,21 +25,43 @@ body {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .inputtext {
     padding: 10px;
+    border-radius: 10px;
+    border: 0;
 }
 .buttons {
     background-color: gray;
     padding: 10px 20px;
     border-radius: 10px;
     border: 0;
+
 }
 .tasks {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    height: 100px;
+    width: 300px;
+   
     
+}
+.buttontasks {
+    background-color: transparent;
+    border: none;
+    font: 100px;
+    margin-right: 5px;
+   
+    
+    
+}
+.tasks2 {
+    background-color: gray;
+    padding: 5px 10px;
+    border: 0.5px solid black;
 }
 .footer {
     padding-top: 10px;

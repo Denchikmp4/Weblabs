@@ -26,42 +26,55 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 800px;
 }
 .inputtext {
     padding: 10px;
-    border-radius: 10px;
     border: 0;
+    width: 310px;
+    height: 42px;
 }
 .buttons {
     background-color: gray;
     padding: 10px 20px;
-    border-radius: 10px;
     border: 0;
+    width: 160px;
 
+}
+.buttonsdel {
+    background-color: brown;
+    padding: 10px 20px;
+    border: 0;
+    width: 160px;
 }
 .tasks {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     overflow: auto;
-    height: 100px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
    
     
 }
 .buttontasks {
     background-color: transparent;
     border: none;
-    font: 100px;
-    margin-right: 5px;
+    font-size: 30px;
+    margin-left: 270px;
+    padding: 0%;
+    
    
     
     
 }
 .tasks2 {
     background-color: gray;
-    padding: 5px 10px;
+    font-size: 20px;
+    padding: 20px 20px;
     border: 0.5px solid black;
+    height: 55;
+    width: 465;
 }
 .footer {
     padding-top: 10px;
